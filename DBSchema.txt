@@ -1,17 +1,19 @@
 ## Database schema
 
-CREATE TABLE ciquiz (
+CREATE TABLE devopsquiz (
  id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
  question VARCHAR(50) NOT NULL,
  answer BOOLEAN DEFAULT NULL,
  description VARCHAR(140) NOT NULL,
  ) 
 
-CREATE TABLE ciquizimages (
+CREATE TABLE devopsimages (
  id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
  image LONGBLOB NOT NULL,
 )
 
 
+INSERT INTO devopsquiz 
 
-INSERT INTO ciquiz 
+
+INSERT into devopsimages
