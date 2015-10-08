@@ -12,11 +12,17 @@ var config = {
     app: {
       name: 'student-continuousintegration'
     },
-    port: 3306,
-    database: 'acsm_00f6343e5d1c903',
-    host: 'eu-cdbr-azure-west-c.cloudapp.net',
+    
+    db: {
+      options: {
+       port: 3306,
+      host: 'eu-cdbr-azure-west-c.cloudapp.net',
+    },     
+    database: 'acsm_00f6343e5d1c903',    
     user: 'bf061487ad2ca6',
     password: '32936e31' 
+    } 
+    
   },
 
   test: {
@@ -24,11 +30,17 @@ var config = {
     app: {
       name: 'student-continuousintegration'
     },
-    port: 3306,
-    database: 'acsm_00f6343e5d1c903',
-    host: 'eu-cdbr-azure-west-c.cloudapp.net',
+   db: {
+      options: {
+       port: 3306,
+      host: 'eu-cdbr-azure-west-c.cloudapp.net',
+    },     
+    database: 'acsm_00f6343e5d1c903',    
     user: 'bf061487ad2ca6',
     password: '32936e31' 
+    } 
+    
+   
   },
 
   production: {
@@ -36,11 +48,15 @@ var config = {
     app: {
       name: 'student-continuousintegration'
     },
-    port: 3306,
-    database: 'acsm_00f6343e5d1c903',
-    host: 'eu-cdbr-azure-west-c.cloudapp.net',
+    db: {
+      options: {
+       port: 3306,
+      host: 'eu-cdbr-azure-west-c.cloudapp.net',
+    },     
+    database: 'acsm_00f6343e5d1c903',    
     user: 'bf061487ad2ca6',
     password: '32936e31' 
+    } 
   }
 };
 
