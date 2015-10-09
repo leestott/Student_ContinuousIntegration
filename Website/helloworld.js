@@ -5,7 +5,3 @@ http.createServer(function(req, res) {
   res.end('Hello World\n');
 }).listen(port);
 
-
-var connect = require('connect');
-var serveStatic = require('serve-static');
-connect().use(serveStatic(__dirname)).listen(port);
