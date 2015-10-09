@@ -1,19 +1,4 @@
-## Database schema
-
-CREATE TABLE devopsquiz (
- id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
- question VARCHAR(50) NOT NULL,
- answer BOOLEAN DEFAULT NULL,
- description VARCHAR(500) NOT NULL,
- ) 
-
-CREATE TABLE devopsimages (
- id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
- image LONGBLOB NOT NULL,
-)
-
-
-## Insert some initial data
+# Insert the questions into the devopsquiz table 
 
 INSERT INTO devopsquiz (id, question, answer, description) 
 VALUES ('1', 'Devops is the same as Agile?', 'TRUE', 'DevOps extends Agility (Shift-Left principle): Ops concerns integrate Development + Support is provided by developers (developers are on call) + automation of the whole machinery (Build, Test, Integration, Delivery and Deployment), which is summarized by the automation of the Deployment Pipeline.'),
@@ -22,7 +7,7 @@ VALUES ('1', 'Devops is the same as Agile?', 'TRUE', 'DevOps extends Agility (Sh
 ('4', 'Is cough a devops tool?' , 'FALSE', 'A cough is a sudden and often repetitively occurring reflex which helps to clear the large breathing passages from secretions, irritants, foreign particles and microbes.'),
 ('5', 'Is Automating your environment creation the same as Infrastructure as Code?', 'FALSE', 'This would only be the same if you maintained strict Version Control over the Automation Scripts - essentially treat it exactly the same as your app versioning.'),
 ('6', 'Is Availability Monitoring part of devops?', 'TRUE', 'This is an intrinsic part of DevOps - particularly if you want your app to be always-on.')
- 
 
-INSERT into devopsimages (id, image)
-VALUES (...)
+# insert any pictures to show on the website (not currently implemented 
+#INSERT into devopsimages (id, image)
+#VALUES (...)
