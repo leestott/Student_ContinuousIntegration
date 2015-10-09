@@ -1,4 +1,4 @@
-# Create the dev ops quiz tables and dev ops images
+# Create the dev ops quiz tables and dev ops images table
 
 CREATE TABLE devopsquiz (
  id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
