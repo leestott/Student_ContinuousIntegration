@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "node beebs.js"
   },
   "engines":{"node": "0.12.x"},
   "dependencies": {
@@ -17,7 +17,9 @@
     "glob": "^5.0.3",
     "sequelize": "^3.5.1",
     "mysql": "^2.8.0",
-    "express-handlebars": "^2.0.1"
+    "express-handlebars": "^2.0.1",
+    "serve-static": "*",
+    "connect": "*"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
