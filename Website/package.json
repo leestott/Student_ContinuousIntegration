@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node helloworld.js"
+    "start": "node app.js"
   },
   "engines":{"node": "0.12.x"},
   "dependencies": {
