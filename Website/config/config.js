@@ -15,14 +15,14 @@ var config = {
     
     db: {
       options: {
-      port: 3306,
+      port: 1337,
       host: 'eu-cdbr-azure-west-c.cloudapp.net',
     },     
     database: 'acsm_00f6343e5d1c903',    
     user: 'bf061487ad2ca6',
     password: '32936e31' 
     } ,
-    port: 3306
+    port: 1337
     
   },
 
@@ -33,14 +33,14 @@ var config = {
     },
    db: {
       options: {
-       port: 3306,
+       port: 1337,
       host: 'eu-cdbr-azure-west-c.cloudapp.net',
     },     
     database: 'acsm_00f6343e5d1c903',    
     user: 'bf061487ad2ca6',
     password: '32936e31' 
     } 
-    ,port: 3306
+    ,port: 1337
    
   },
 
@@ -51,7 +51,7 @@ var config = {
     },
     db: {
       options: {
-       port: 3306,
+       port: 1337,
       host: 'eu-cdbr-azure-west-c.cloudapp.net',
     },     
     database: 'acsm_00f6343e5d1c903',    
@@ -59,7 +59,7 @@ var config = {
     password: '32936e31' 
     } ,
     
-    port: 3306
+    port: 1337
   }
 };
 
