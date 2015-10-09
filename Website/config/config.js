@@ -33,12 +33,12 @@ var config = {
     },
    db: {
       options: {
-       port: 1337,
-      host: 'eu-cdbr-azure-west-c.cloudapp.net',
+       port: 3306,
+      host: 'us-cdbr-azure-southcentral-e.cloudapp.net',
     },     
-    database: 'acsm_00f6343e5d1c903',    
-    user: 'bf061487ad2ca6',
-    password: '32936e31' 
+    database: 'DevOps',    
+    user: 'bb144969365f88',
+    password: '5b0ea33c' 
     } 
     ,port: 1337
    
@@ -51,13 +51,12 @@ var config = {
     },
     db: {
       options: {
-       port: 1337,
-      host: 'eu-cdbr-azure-west-c.cloudapp.net',
+       port: 3306,
+      host: 'us-cdbr-azure-southcentral-e.cloudapp.net',
     },     
-    database: 'acsm_00f6343e5d1c903',    
-    user: 'bf061487ad2ca6',
-    password: '32936e31' 
-    } ,
+    database: 'DevOps',    
+    user: 'bb144969365f88',
+    password: '5b0ea33c' },
     
     port: 1337
   }
